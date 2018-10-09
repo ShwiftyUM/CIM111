@@ -1,0 +1,83 @@
+body {
+    background-color: #ADD8E6;
+}
+
+#header {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+#pic {
+  margin: auto;
+   width: 50%;
+   border: 3px solid red;
+   padding: 10px;
+
+}
+
+.center {
+  text-align: center;
+}
+
+.margin {
+  margin-left: 70px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.red {
+  color: blue;
+}
+
+a {
+   color: red;
+   text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+}
+
+h2, h3 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+}
+
+
+
+.poocontainer {
+  font-size: 100px;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3000;
+}
+
+/* This is my wonderful poo styling that is differnt than the one we used in class for Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* This is my wonderful poo styling that is differnt than the one we used in class for Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+}
