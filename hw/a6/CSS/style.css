@@ -1,0 +1,26 @@
+.header{
+  color: red;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+a:hover {
+    background-color: red;
+}
+
+.paragraph{
+  padding-left: 5px;
+  padding-right: 100px;
+
+}
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1{
+  color: red;
+  text-transform: uppercase;
+  font-family: 'Slabo 27px', serif;
+  font-size: 3.15em;
+  font-weight: 100;
